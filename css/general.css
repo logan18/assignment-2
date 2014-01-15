@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {}
+
+body {
+	background-image:url(../images/column.svg);
+	background-size:100%;
+	font-size:100%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	line-height: 1.5rem;
+}
+
+.baseline {
+	background-image:url(../images/baseline.svg);
+}
+
+ .column {
+	 background-image:url(../../exercise-layout/images/column.svg)
+ }
+
+/*---------------Masthead*/
+
+.masthead {
+	background-color: #093;
+	height: 9rem;
+}
+
+/*---------------Content*/
+
+.picture {
+	padding-bottom: 1.9rem;
+	width: 30%
+}
+
+.wrapper {
+	background-color: #9C9;
+	overflow: hidden;
+}
+
+.left {
+	width: 65.25%;
+	float: left;
+}
+
+.right {
+	width: 34.75%;
+	float: right;
+}
+
+.background {
+	width: 100%;
+}
+
+article {
+	background-color: #FFF;
+	padding: 1.5rem 3%;
+}
+
+article h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+article p {
+	margin-bottom: 1.5rem;
+}
+
+article p:last-child {
+	margin-bottom: 0;
+}
+
+aside {
+	padding:1.5rem 6%;
+}
+
+.box {
+	background-color: #FFF;
+	padding: 1.5rem 6%;
+	margin-bottom: 1.5rem;
+}
+
+.box h3 {
+	font-size: 1.23rem;
+}
+
+.box p {
+	font-size: .75rem;
+}
+
+/*-------------------------------Bottom */
+
+.bottom {
+	height: 12rem;
+	background-color: #999;
+	padding: 1.5rem 2%;
+}
+
+.bottom p {
+	color: #fff;
+	font-size: .75rem;
+}
